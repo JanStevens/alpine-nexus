@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-SERVICE_NAME=nexus
-SERVICE_HOME=/opt/sonatype/nexus 
-SERVICE_WORK=/opt/sonatype-work/nexus 
-export PIDDIR=${SERVICE_HOME}
+HEAP_MIN=${HEAP_MIN:-"256"}
+HEAP_MAX=${HEAP_MAX:-"768"}
+PIDDIR=${PIDDIR:-"/opt/sonatype/nexus"}
+
+export HEAP_MIN HEAP_MAX PIDDIR
 
 function log {
         echo `date` $ME - $@

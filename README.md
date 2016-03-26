@@ -21,6 +21,10 @@ To start the nexus service, exec
 docker run -td -v <volume>:/opt/sonatype-work/nexus rawmind/alpine-nexus:<version> .
 ```
 
+You could configure nexus mem params in execution time, setting that variables:
+- HEAP_MIN="256"
+- HEAP_MAX="768"
+
 ## Storage
 
 If you want to assure data persintence, you need a persintent volume on /opt/sonatype-work/nexus
