@@ -28,3 +28,8 @@ You could configure nexus mem params in execution time, setting that variables:
 ## Storage
 
 If you want to assure data persintence, you need a persintent volume on /opt/sonatype-work/nexus
+
+## Auth
+
+Default admin user: admin
+Default admin pass: admin123
