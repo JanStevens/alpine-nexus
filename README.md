@@ -11,7 +11,7 @@ docker build -t rawmind/alpine-nexus:<version> .
 
 ## Versions
 
-- `2.12.1-01-3` [(Dockerfile)](https://github.com/rawmind0/alpine-nexus/blob/2.12.1-01-3/Dockerfile)
+- `2.12.1-01-4` [(Dockerfile)](https://github.com/rawmind0/alpine-nexus/blob/2.12.1-01-4/Dockerfile)
 
 ## Usage
 
